@@ -13,10 +13,11 @@ function processMessage(msg)
   if(msg === "Hello")
   {
     alert("Hello World");
-  };
-  else{
+  }
+  else
+  {
     alert("You didn't say hello! :( ");
-  };
+  }
   console.log(msg);
 };
 
